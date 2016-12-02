@@ -15,6 +15,11 @@
 @implementation LGViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"view did load");
+    NSLog(@"view did load.");
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"view will appear.");
 }
 @end
