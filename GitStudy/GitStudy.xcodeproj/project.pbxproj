@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3304DC931DF10A78007E1DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3304DC921DF10A78007E1DF2 /* main.m */; };
 		3304DC961DF10A78007E1DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3304DC951DF10A78007E1DF2 /* AppDelegate.m */; };
-		3304DC991DF10A78007E1DF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3304DC981DF10A78007E1DF2 /* ViewController.m */; };
+		3304DC991DF10A78007E1DF2 /* LGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3304DC981DF10A78007E1DF2 /* LGLViewController.m */; };
 		3304DC9C1DF10A78007E1DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3304DC9A1DF10A78007E1DF2 /* Main.storyboard */; };
 		3304DC9E1DF10A78007E1DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3304DC9D1DF10A78007E1DF2 /* Assets.xcassets */; };
 		3304DCA11DF10A78007E1DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3304DC9F1DF10A78007E1DF2 /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		3304DC921DF10A78007E1DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3304DC941DF10A78007E1DF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3304DC951DF10A78007E1DF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3304DC971DF10A78007E1DF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3304DC981DF10A78007E1DF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3304DC971DF10A78007E1DF2 /* LGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGViewController.h; sourceTree = "<group>"; };
+		3304DC981DF10A78007E1DF2 /* LGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLViewController.m; sourceTree = "<group>"; };
 		3304DC9B1DF10A78007E1DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3304DC9D1DF10A78007E1DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3304DCA01DF10A78007E1DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				3304DC941DF10A78007E1DF2 /* AppDelegate.h */,
 				3304DC951DF10A78007E1DF2 /* AppDelegate.m */,
-				3304DC971DF10A78007E1DF2 /* ViewController.h */,
-				3304DC981DF10A78007E1DF2 /* ViewController.m */,
+				3304DC971DF10A78007E1DF2 /* LGViewController.h */,
+				3304DC981DF10A78007E1DF2 /* LGLViewController.m */,
 				3304DC9A1DF10A78007E1DF2 /* Main.storyboard */,
 				3304DC9D1DF10A78007E1DF2 /* Assets.xcassets */,
 				3304DC9F1DF10A78007E1DF2 /* LaunchScreen.storyboard */,
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3304DC991DF10A78007E1DF2 /* ViewController.m in Sources */,
+				3304DC991DF10A78007E1DF2 /* LGLViewController.m in Sources */,
 				3304DC961DF10A78007E1DF2 /* AppDelegate.m in Sources */,
 				3304DC931DF10A78007E1DF2 /* main.m in Sources */,
 			);
@@ -516,6 +516,7 @@
 				3304DCBD1DF10A78007E1DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3304DCBE1DF10A78007E1DF2 /* Build configuration list for PBXNativeTarget "GitStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				3304DCC01DF10A78007E1DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3304DCC11DF10A78007E1DF2 /* Build configuration list for PBXNativeTarget "GitStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				3304DCC31DF10A78007E1DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
