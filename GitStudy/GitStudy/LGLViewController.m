@@ -13,5 +13,8 @@
 @end
 
 @implementation LGViewController
- 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSLog(@"view did load");
+}
 @end
