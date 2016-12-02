@@ -20,8 +20,35 @@
                         <sections>
                             <tableViewSection id="0Is-bD-uIj">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="X2Y-0h-VDy" detailTextLabel="rUe-Om-NR8" style="IBUITableViewCellStyleValue1" id="GgG-VC-OCU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="NFq-mj-heI" detailTextLabel="534-nu-xiC" style="IBUITableViewCellStyleValue1" id="pn4-4l-qUi">
                                         <rect key="frame" x="0.0" y="35" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pn4-4l-qUi" id="IOB-ix-EpY">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Understanding Autolayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NFq-mj-heI">
+                                                    <rect key="frame" x="15" y="11" width="200" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="see" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="534-nu-xiC">
+                                                    <rect key="frame" x="312" y="11" width="28" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="YTO-nX-DaH" kind="push" id="zyR-I5-69f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="X2Y-0h-VDy" detailTextLabel="rUe-Om-NR8" style="IBUITableViewCellStyleValue1" id="GgG-VC-OCU">
+                                        <rect key="frame" x="0.0" y="79" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GgG-VC-OCU" id="K57-lQ-mbP">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
@@ -60,6 +87,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOw-AI-5gz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="673" y="-98"/>
+        </scene>
+        <!--Understanding Autolayout-->
+        <scene sceneID="rLx-QS-IUV">
+            <objects>
+                <viewController id="YTO-nX-DaH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JxN-eN-jN2"/>
+                        <viewControllerLayoutGuide type="bottom" id="8yF-p2-Ued"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yCD-CQ-t2h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="118-a3-lww">
+                                <rect key="frame" x="20" y="84" width="335" height="271.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CuX-W4-4OS">
+                                <rect key="frame" x="20" y="375.5" width="335" height="271.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="118-a3-lww" firstAttribute="leading" secondItem="yCD-CQ-t2h" secondAttribute="leading" constant="20" id="CFs-L4-zEU"/>
+                            <constraint firstItem="CuX-W4-4OS" firstAttribute="leading" secondItem="yCD-CQ-t2h" secondAttribute="leading" constant="20" id="JL2-E0-kon"/>
+                            <constraint firstAttribute="trailing" secondItem="118-a3-lww" secondAttribute="trailing" constant="20" id="KVJ-G1-EPH"/>
+                            <constraint firstAttribute="trailing" secondItem="CuX-W4-4OS" secondAttribute="trailing" constant="20" id="Wam-wq-VAQ"/>
+                            <constraint firstItem="118-a3-lww" firstAttribute="top" secondItem="JxN-eN-jN2" secondAttribute="bottom" constant="20" id="gjf-lQ-tcj"/>
+                            <constraint firstItem="CuX-W4-4OS" firstAttribute="height" secondItem="118-a3-lww" secondAttribute="height" id="iZs-nb-Ycp"/>
+                            <constraint firstItem="8yF-p2-Ued" firstAttribute="top" secondItem="CuX-W4-4OS" secondAttribute="bottom" constant="20" id="nGk-XL-PoY"/>
+                            <constraint firstItem="CuX-W4-4OS" firstAttribute="top" secondItem="118-a3-lww" secondAttribute="bottom" constant="20" id="rmb-m5-UPu"/>
+                            <constraint firstItem="CuX-W4-4OS" firstAttribute="top" secondItem="118-a3-lww" secondAttribute="bottom" constant="20" id="s0t-oP-1so"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Understanding Autolayout" id="DOs-35-LsE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKu-DM-5Lg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451" y="-737"/>
         </scene>
         <!--UIStack View-->
         <scene sceneID="CxH-gC-w3W">
@@ -119,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L13-Jx-wjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1426" y="-673"/>
+            <point key="canvasLocation" x="1450" y="-91"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r8k-mh-SAN">
